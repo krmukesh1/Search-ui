@@ -75,6 +75,10 @@ div#section4 {
 .icons i.fa.fa-briefcase {
   margin-right: 8px;
 }
+.icons p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
 .icons p img {
   width: 25px;
   height: 25px;
