@@ -64,12 +64,13 @@ div#section4 {
   font-family: "stdbook-font";
   display: flex;
   justify-content: flex-start;
-  padding: 10px 0;
+  padding: 10px 0 5px 0;
 }
 .icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0 !important;
 }
 .icons i.fa.fa-briefcase {
   margin-right: 8px;
