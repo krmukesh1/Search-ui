@@ -1,26 +1,44 @@
+@font-face {
+  font-family: "stddemi-font";
+  src: url("./fonts/ITCAvantGardeStdDemi.otf");
+}
+
+@font-face {
+  font-family: "stdmedium-font";
+  src: url("./fonts/ITCAvantGardeStdMd.otf");
+}
+
+@font-face {
+  font-family: "stdbook-font";
+  src: url("./fonts/ITCAvantGardeStdBk.otf");
+}
 body,
 html {
   background: #16beb8;
 }
 div#section1 {
+  font-family: "stdmedium-font";
   padding: 20px 20px 10px 20px;
   margin-top: 40px;
   background-color: #f2f4f4;
   border: 1px solid #f2f4f4;
 }
 div#section2 {
+  font-family: "stdmedium-font";
   padding: 20px 20px 10px 20px;
   margin-top: 40px;
   background-color: #16beb8;
-  border: 4px solid #fff;
+  border: 2px solid #f2f4f4;
 }
 div#section3 {
+  font-family: "stdmedium-font";
   padding: 20px 20px 10px 20px;
   margin-top: 40px;
   background-color: #f2f4f4;
   border: 1px solid #f2f4f4;
 }
 div#section4 {
+  font-family: "stdmedium-font";
   padding: 20px 20px 10px 20px;
   margin-top: 40px;
   background-color: #f2f4f4;
@@ -29,7 +47,6 @@ div#section4 {
 .head {
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
 }
 .head h4 {
   font-size: 1.2rem;
@@ -39,6 +56,7 @@ div#section4 {
   height: 26px;
 }
 .icons {
+  font-family: "stdbook-font";
   display: flex;
   justify-content: flex-start;
   padding: 10px 0;
@@ -47,14 +65,16 @@ div#section4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 20px;
+}
+.icons i.fa.fa-briefcase {
+  margin-right: 8px;
 }
 .icons p img {
   width: 25px;
   height: 25px;
 }
 .profile p {
-  margin-left: 20px;
+  font-family: "stdbook-font";
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -63,23 +83,29 @@ div#section4 {
   height: 25px;
 }
 .opening {
+  font-family: "stdbook-font";
   display: flex;
   justify-content: flex-start;
   padding: 10px 0;
 }
 .opening p {
-  margin: 0 0 0 20px;
+  margin: 0 10px 0 0px;
 }
 .hour {
   display: flex;
   justify-content: space-between;
-  margin-left: 20px;
   padding: 10px 0;
 }
 .hour h4 {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  background: #fff;
+  padding: 3px 5px 0 5px;
+  border-radius: 10px;
+  text-align: center;
 }
 .hour img {
-  width: 25px;
-  height: 26px;
+  width: 20px;
+  height: 20px;
+  margin-top: -2px;
+  margin-right: 4px;
 }
