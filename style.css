@@ -120,3 +120,41 @@ div#section4 {
   margin-top: -2px;
   margin-right: 4px;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div#section1 {
+    font-family: "stdmedium-font";
+    padding: 20px 20px 10px 20px;
+    margin-top: 40px;
+    background-color: #f2f4f4;
+    border: 1px solid #f2f4f4;
+    overflow-x: scroll;
+  }
+  div#section1 i.fa.fa-bookmark {
+    /* background: #fff; */
+    color: #16beb8;
+  }
+  div#section2 {
+    font-family: "stdmedium-font";
+    padding: 20px 20px 10px 20px;
+    margin-top: 40px;
+    background-color: #16beb8;
+    border: 2px solid #f2f4f4;
+    overflow-x: scroll;
+  }
+  div#section3 {
+    font-family: "stdmedium-font";
+    padding: 20px 20px 10px 20px;
+    margin-top: 40px;
+    background-color: #f2f4f4;
+    border: 1px solid #f2f4f4;
+    overflow-x: scroll;
+  }
+  div#section4 {
+    font-family: "stdmedium-font";
+    padding: 20px 20px 10px 20px;
+    margin-top: 40px;
+    background-color: #f2f4f4;
+    border: 1px solid #f2f4f4;
+    overflow-x: scroll;
+  }
+}
